@@ -8,4 +8,4 @@ cd dotfiles-ubuntu
 source bootstrap.sh
 ```
 
-To update, `cd` into your local `dotfiles` repositor, `git pull` and then just run the `source bootstrap.sh` command again.
+To update, `cd` into your local `dotfiles` repository, `git pull` and then just run the `source bootstrap.sh` command again.
