@@ -150,6 +150,6 @@ alias reload="exec ${SHELL} -l"
 # Print each PATH entry on a separate line
 alias path='echo -e ${PATH//:/\\n}'
 
-# add an alias for the function 'wp' so that it targets a container instead.
-alias wp='docker exec site-cli wp'
+# alias wp function to use inside current container
+alias wp='docker-compose run --rm wpcli'
 
